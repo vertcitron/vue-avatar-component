@@ -21,7 +21,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 <script>
   import Avatar from 'vue-avatar-component'
-  export defaults {
+  export default {
     components: { Avatar }
   }
 </script>
