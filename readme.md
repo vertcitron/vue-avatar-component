@@ -28,23 +28,23 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 <table>
   <tr>
-    <td>`<avatar fullname="My Fabulous Component"></avatar>` will show :</td>
+    <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
     <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg) </td>
   </tr>
   <tr>
-    <td> `<avatar fullname="Foo Bar" size="60"></avatar>` will show : </td>
+    <td> <code>&lt;avatar fullname="Foo Bar" size="60"&gt;&lt;/avatar&gt; will show : </td>
     <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg) </td>
   </tr>
   <tr>
-    <td> `<avatar image="http://lorempicsum.com/simpsons/255/200/9"></avatar>` will show : </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9"&gt;&lt;/avatar&gt; will show : </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> `<avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"></avatar>` will show : </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"&gt;&lt;/avatar&gt; will show : </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> `<avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show  </td>
+    <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show  </td>
     <td>  </td>
   </tr>
 </table>
