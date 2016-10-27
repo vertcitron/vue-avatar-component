@@ -44,7 +44,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
     <td>  </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show  </td>
+    <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"&gt;&lt;/avatar&gt;</code> will show : </td>
     <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example5.jpg" /> </td>
   </tr>
 </table>
