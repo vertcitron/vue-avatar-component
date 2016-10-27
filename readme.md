@@ -16,13 +16,13 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 `fullname` :   the full name from which the initials and the color will be computed. Initials are extracted taking the first letter of each word, separated by a space or an hyphen. If there is more, only the 3 first initials are kept. For example, `Foo Bar` gives `FB`, `My Foo-Bar` gives `MFB`, `FOO` gives `F` and `My Fantastic Vue Component` gives `MFV`. If not provided, fullname defaults to '##'.
 
-`size` : the size of the sticker to generate, in pixels. Provide it as a binding to pass a number and not a litteral string (`<avatar :size="36"></avatar>`). If not provided, the size defaults to 48 pixels. The font size inside the avatar is computed from its overall size (half if 1 or 2 letters, third for 3 letters).
+`size` : the size of the sticker to generate, in pixels. If not provided, the size defaults to 48 pixels. The font size inside the avatar is computed from its overall size (half if 1 or 2 letters, third for 3 letters).
 
-`image` : the url of the image to fit in the avatar sticker. If provided not empty, initials will not show and the image wil be shown.
+`image` : the url of the image to fit in the avatar sticker. If provided not empty, initials will not show and the image wil be shown. Be careful that if the provided image url is wrong, the component has its size but shows nothing.
 
-`radius` : percentage of the overall size to show the rounded corners of the avatar. Provide a number beetween 0 and 50 : at 0%, the avatar will be a square, at 50% it will be exactly circular. This pecentage defaults to 50 if not provide. Provide a binded number as for the size parameter.
+`radius` : percentage of the overall size to show the rounded corners of the avatar. Provide a number beetween 0 and 50 : at 0%, the avatar will be a square, at 50% it will be exactly circular. This pecentage defaults to 50 if not provided.
 
-`color` : If provided, overides the computed color for the initials based avatar. Just provide a CSS color (named, hex or rgba fit).
+`color` : If provided, overides the computed color for the initials based avatar. Just provide a CSS color (named, hex or rgba fits).
 
 ### examples
 
