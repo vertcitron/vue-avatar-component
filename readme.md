@@ -24,7 +24,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 `color` : If provided, overides the computed color for the initials based avatar. Just provide a CSS color (named, hex or rgba fit).
 
-# examples
+### examples
 
 <table>
   <tr>
@@ -36,12 +36,12 @@ If you provide an image url, this image will be shown, sized and truncated to fi
     <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg" /> </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td>  </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9" size="96"&gt;&lt;/avatar&gt;</code> will show : </td>
+    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example3.jpg" /> </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td>  </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" size="96" radius="0"&gt;&lt;/avatar&gt;</code> will show : </td>
+    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example4.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"&gt;&lt;/avatar&gt;</code> will show : </td>
