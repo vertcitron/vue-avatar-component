@@ -29,7 +29,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 This will show this avatar as result :
 
-[avatar](https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example0.jpg)
+![avatar](https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example0.jpg)
 
 ### Parameters
 
