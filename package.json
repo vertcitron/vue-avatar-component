@@ -1,6 +1,6 @@
 {
   "name": "vue-avatar-component",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A Vue.js 2.0 component to generate initials or image based avatars",
   "main": "Avatar.vue",
   "scripts": {

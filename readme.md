@@ -39,7 +39,7 @@ This will show this avatar as result :
 
 `image` : the url of the image to fit in the avatar sticker. If provided not empty, initials will not show and the image wil be shown. Be careful that if the provided image url is wrong, the component has its size but shows nothing.
 
-`radius` : percentage of the overall size to show the rounded corners of the avatar. Provide a number beetween 0 and 50 : at 0%, the avatar will be a square, at 50% it will be exactly circular. This pecentage defaults to 50 if not provided.
+`radius` : percentage of the overall size to show the rounded corners of the avatar. Provide a number beetween 0 and 50 : at 0%, the avatar will be a square, at 50% it will be exactly circular. This percentage defaults to 50 if not provided.
 
 `color` : If provided, overides the computed color for the initials based avatar. Just provide a CSS color (named, hex or rgba fits).
 
