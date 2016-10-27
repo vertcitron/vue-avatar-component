@@ -10,11 +10,26 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 `npm install --save-dev vue-avatar-component`
 
-### Usage
+### Example Usage from within a .vue component
 
-1. require the component : `import Avatar from 'vue-avatar-component'`
-2. register the component from the component where you want to use it :   `component: { Avatar }`
-3. place it in your template, with the attributes you need :   `<avatar fullname="Foo Bar"></avatar>` (for example)
+```javascript
+<template>
+  <div>
+    <avatar fullname="My Sticker" size="96"></avatar>
+  </div>
+</template>
+
+<script>
+  import Avatar from 'vue-avatar-component'
+  export defaults {
+    components: { Avatar }
+  }
+</script>
+```
+
+This will show this avatar as result :
+
+[avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example0.jpg)
 
 ### Parameters
 
