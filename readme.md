@@ -29,11 +29,11 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 <table>
   <tr>
     <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
-    <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg) </td>
+    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar fullname="Foo Bar" size="60"&gt;&lt;/avatar&gt; will show : </td>
-    <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg) </td>
+    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9"&gt;&lt;/avatar&gt; will show : </td>
