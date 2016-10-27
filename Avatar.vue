@@ -1,6 +1,8 @@
 <template>
-  <div class="avatar" v-bind:style="styler">
-    <table><tr><td>{{initials}}</td></tr></table>
+  <div class="avatar" v-bind:style="style">
+    <table>
+      <tr><td>{{initials}}</td></tr>
+    </table>
   </div>
 </template>
 
@@ -9,9 +11,12 @@
     name: 'avatar',
     props: {
       fullname: { type: String, default: '##' },
-      size: { type: Number, default: 48 }
+      size: { type: Number, default: 48 },
+      radius: { type: Number, default: 50 },
+      color: { type: String, default: '' }
     },
     computed: {
+      // compute initials from fullname
       initials () {
         var words = this.fullname.split(/[\s-]+/)
         var intls = ''
@@ -23,13 +28,17 @@
         }
         return intls
       },
-      styler () {
+      // compute style from props
+      style () {
         var fontSize = this.initials.length > 2 ? this.size / 3 : this.size / 2
+        this.radius = this.radius >= 0 ? this.radius : 0
+        this.radius = this.radius <= 50 ? this.radius : 50
         return {
           'width': this.size + 'px',
           'height': this.size + 'px',
+          'border-radius': this.radius + '%',
           'font-size': fontSize + 'px',
-          'background-color': this.toColor(this.fullname)
+          'background-color': this.color == '' ? this.toColor(this.fullname) : this.color
         }
       }
     },

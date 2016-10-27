@@ -26,7 +26,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 # examples
 
-<table style="text-align: center;">
+<table>
   <tr>
     <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
     <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg" /> </td>
@@ -45,7 +45,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
   </tr>
   <tr>
     <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show  </td>
-    <td>  </td>
+    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example5.jpg" /> </td>
   </tr>
 </table>
 
