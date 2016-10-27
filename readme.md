@@ -26,21 +26,21 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 # examples
 
-<table>
+<table style="text-align: center;">
   <tr>
     <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
     <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg" /> </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar fullname="Foo Bar" size="60"&gt;&lt;/avatar&gt; will show : </td>
+    <td> <code>&lt;avatar fullname="Foo Bar" size="60"&gt;&lt;/avatar&gt;</code> will show : </td>
     <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg" /> </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9"&gt;&lt;/avatar&gt; will show : </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9"&gt;&lt;/avatar&gt;</code> will show : </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"&gt;&lt;/avatar&gt; will show : </td>
+    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"&gt;&lt;/avatar&gt;</code> will show : </td>
     <td>  </td>
   </tr>
   <tr>
