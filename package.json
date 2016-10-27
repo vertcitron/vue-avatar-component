@@ -1,0 +1,19 @@
+{
+  "name": "vue-avatar-component",
+  "version": "1.0.0",
+  "description": "A component to generate initials or image based avatars",
+  "main": "Avatar.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssouron/vue-avatar-component.git"
+  },
+  "author": "Stephane Souron <stephane.souron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssouron/vue-avatar-component/issues"
+  },
+  "homepage": "https://github.com/ssouron/vue-avatar-component#readme"
+}
