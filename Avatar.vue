@@ -9,7 +9,7 @@
     name: 'avatar',
     props: {
       fullname: { type: String, default: '##' },
-      size: { type: Number, default: 128 }
+      size: { type: Number, default: 48 }
     },
     computed: {
       initials () {
