@@ -29,7 +29,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 This will show this avatar as result :
 
-[avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example0.jpg)
+[avatar](https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example0.jpg)
 
 ### Parameters
 
@@ -50,23 +50,23 @@ If images don't show, go to this component's [github repository](https://github.
 <table>
   <tr>
     <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
-    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg" /> </td>
+    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example1.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar fullname="Foo Bar" size="60"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg" /> </td>
+    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example2.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9" size="96"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example3.jpg" /> </td>
+    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example3.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" size="96" radius="0"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example4.jpg" /> </td>
+    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example4.jpg" /> </td>
   </tr>
   <tr>
     <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://github.com/ssouron/vue-avatar-component/blob/master/img/example5.jpg" /> </td>
+    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example5.jpg" /> </td>
   </tr>
 </table>
 
