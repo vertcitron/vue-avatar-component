@@ -6,6 +6,10 @@ If you just provide a name to the component, i will show a colored patch showing
 
 If you provide an image url, this image will be shown, sized and truncated to fit into the component's placeholder.
 
+### Installation
+
+`npm install --save-dev vue-avatar-component`
+
 ### Usage
 
 1. require the component : `import Avatar from 'vue-avatar-component'`
