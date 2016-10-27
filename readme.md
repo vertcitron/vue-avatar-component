@@ -26,7 +26,7 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 # examples
 
-`<avatar fullname="My Fabulous Component"></avatar>` will show 
+`<avatar fullname="My Fabulous Component"></avatar>` will show ![](![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 `<avatar fullname="Foo Bar" size="60"></avatar>` will show 
 
