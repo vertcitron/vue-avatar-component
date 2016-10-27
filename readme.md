@@ -26,14 +26,26 @@ If you provide an image url, this image will be shown, sized and truncated to fi
 
 # examples
 
-`<avatar fullname="My Fabulous Component"></avatar>` will show :
+<table>
+  <tr>
+    <td>`<avatar fullname="My Fabulous Component"></avatar>` will show :</td>
+    <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg) </td>
+  </tr>
+  <tr>
+    <td> `<avatar fullname="Foo Bar" size="60"></avatar>` will show : </td>
+    <td> ![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example2.jpg) </td>
+  </tr>
+  <tr>
+    <td> `<avatar image="http://lorempicsum.com/simpsons/255/200/9"></avatar>` will show : </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> `<avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"></avatar>` will show : </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> `<avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show  </td>
+    <td>  </td>
+  </tr>
+</table>
 
-![avatar](https://github.com/ssouron/vue-avatar-component/blob/master/img/example1.jpg)
-
-`<avatar fullname="Foo Bar" size="60"></avatar>` will show 
-
-`<avatar image="http://lorempicsum.com/simpsons/255/200/9"></avatar>` will show 
-
-`<avatar image="http://lorempicsum.com/simpsons/255/200/5" radius="0"></avatar>` will show 
-
-`<avatar fullname="Foo Bar" radius="25" color="red"></avatar>` will show 
