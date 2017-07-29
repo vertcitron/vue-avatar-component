@@ -82,11 +82,13 @@
   .avatar table {
     width: 100%;
     height: 100%;
-    text-align: center;
-    vertical-align: middle;
     margin: 0;
     padding: 0;
 
+  }
+  .avatar table td{
+    text-align: center;
+    vertical-align: middle;
   }
   .avatar img {
     width: 100%;
