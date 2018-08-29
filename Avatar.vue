@@ -14,7 +14,7 @@
     props: {
       fullname: { type: String, default: '##' },
       size: { type: Number, default: 48 },
-      radius: { type: Number, default: 50 },
+      radius: { type: Number, default: 50, validator: (value) => value >= 0 && value <= 50 },
       color: { type: String, default: '' },
       image: { type: String, default: '' }
     },
@@ -34,8 +34,6 @@
       // compute style from props
       style () {
         var fontSize = this.initials.length > 2 ? this.size / 3 : this.size / 2
-        this.radius = this.radius >= 0 ? this.radius : 0
-        this.radius = this.radius <= 50 ? this.radius : 50
         return {
           'width': this.size + 'px',
           'height': this.size + 'px',
