@@ -14,7 +14,7 @@
     props: {
       fullname: { type: String, default: '##' },
       size: { type: Number, default: 48 },
-      radius: { type: Number, default: 50 },
+      radius: { type: Number, default: 50, validator: (value) => value >= 0 && value <= 50 },
       color: { type: String, default: '' },
       image: { type: String, default: '' }
     },
@@ -34,26 +34,24 @@
       // compute style from props
       style () {
         var fontSize = this.initials.length > 2 ? this.size / 3 : this.size / 2
-        this.radius = this.radius >= 0 ? this.radius : 0
-        this.radius = this.radius <= 50 ? this.radius : 50
         return {
           'width': this.size + 'px',
           'height': this.size + 'px',
           'border-radius': this.radius + '%',
           'font-size': fontSize + 'px',
-          'background-color': this.color == '' ? this.toColor(this.fullname) : this.color,
+          'background-color': this.color === '' ? this.toColor(this.fullname) : this.color,
           'background-image': this.hasImage ? 'url(' + this.image + ')' : 'none'
         }
       },
       hasImage () {
-        return (this.image != '')
+        return (this.image !== '')
       }
     },
     methods: {
       toColor (str) {
         var hash = 0
         var len = str.length
-        if (len === 0) return black
+        if (len === 0) return 'black'
         for (var i = 0; i < len; i++) {
           hash = ((hash << 8) - hash) + str.charCodeAt(i)
           hash |= 0
