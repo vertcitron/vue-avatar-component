@@ -41,12 +41,12 @@
           'height': this.size + 'px',
           'border-radius': this.radius + '%',
           'font-size': fontSize + 'px',
-          'background-color': this.color == '' ? this.toColor(this.fullname) : this.color,
+          'background-color': this.color === '' ? this.toColor(this.fullname) : this.color,
           'background-image': this.hasImage ? 'url(' + this.image + ')' : 'none'
         }
       },
       hasImage () {
-        return (this.image != '')
+        return (this.image !== '')
       }
     },
     methods: {
