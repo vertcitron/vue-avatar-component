@@ -1,9 +1,11 @@
 <template>
   <div class="avatar" v-bind:style="style">
     <table>
-      <tr>
-        <td v-if="!hasImage">{{initials}}</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td v-if="!hasImage">{{initials}}</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
