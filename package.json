@@ -1,6 +1,6 @@
 {
   "name": "vue-avatar-component",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A Vue.js 2.0 component to generate initials or image based avatars",
   "main": "Avatar.vue",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssouron/vue-avatar-component.git"
+    "url": "git+https://github.com/vertcitron/vue-avatar-component.git"
   },
-  "author": "Stephane Souron <stephane.souron@gmail.com>",
+  "author": "Stephane Souron <stef@vertcitron.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ssouron/vue-avatar-component/issues"
+    "url": "https://github.com/vertcitron/vue-avatar-component/issues"
   },
-  "homepage": "https://github.com/ssouron/vue-avatar-component#readme"
+  "homepage": "https://github.com/vertcitron/vue-avatar-component#readme"
 }
