@@ -31,7 +31,7 @@ This will show this avatar as result :
 
 ![avatar](https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example0.jpg)
 
-### Parameters
+### Properties
 
 `fullname` :   the full name from which the initials and the color will be computed. Initials are extracted taking the first letter of each word, separated by a space or an hyphen. If there is more, only the 3 first initials are kept. For example, `Foo Bar` gives `FB`, `My Foo-Bar` gives `MFB`, `FOO` gives `F` and `My Fantastic Vue Component` gives `MFV`. If not provided, fullname defaults to '##'.
 
@@ -43,7 +43,7 @@ This will show this avatar as result :
 
 `color` : If provided, overides the computed color for the initials based avatar. Just provide a CSS color (named, hex or rgba fits).
 
-### examples
+### Examples
 
 If images don't show, go to this component's [github repository](https://github.com/ssouron/vue-avatar-component) to see the full README.
 
@@ -74,7 +74,7 @@ If images don't show, go to this component's [github repository](https://github.
 
 This Vue.js component is licensed under MIT License :
 
-*Copyright © 2016, Stéphane Souron*
+> **Copyright © 2016~2019, Stéphane Souron**
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:*
 
@@ -82,5 +82,3 @@ This Vue.js component is licensed under MIT License :
 
 *The Software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the Software.
 Except as contained in this notice, the name of the Stéphane Souron shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from Stéphane Souron.*
-
-
