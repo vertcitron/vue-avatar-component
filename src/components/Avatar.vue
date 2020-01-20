@@ -16,7 +16,7 @@
 export default {
   name: 'Avatar',
   props: {
-    fullname: { type: String, default: '##' },
+    fullname: { type: String, default: '' },
     size: { type: Number, default: 48 },
     radius: {
       type: Number,
@@ -27,19 +27,10 @@ export default {
     image: { type: String, default: '' }
   },
   computed: {
-    // compute initials from fullname
     initials () {
       const words = this.fullname.split(/[\s-]+/)
-      let intls = ''
-      for (let i = 0; i < words.length; i++) {
-        intls += words[i].substr(0, 1).toUpperCase()
-      }
-      if (intls.length > 3) {
-        intls = intls.substr(0, 3)
-      }
-      return intls
+      return words.map(word => word.substr(0, 1)).join('').substr(0, 3).toUpperCase()
     },
-    // compute style from props
     style () {
       const fontSize = this.initials.length > 2 ? this.size / 3 : this.size / 2
       return {
