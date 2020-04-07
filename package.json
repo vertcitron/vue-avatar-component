@@ -1,6 +1,6 @@
 {
   "name": "vue-avatar-component",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "A Vue.js 2.0 component to generate initials or image based avatars",
   "author": "Stéphane Souron <stef@vertcitron.fr> (https://www.vertcitron.fr)",
   "contributors": [
@@ -10,7 +10,7 @@
     "Diego Jara <saintplay96@gmail.com> (http://saintplay.dropmark.com/383652)",
     "Elgorm <8758619+Elgorm@users.noreply.github.com> (https://github.com/Elgorm)"
   ],
-  "main": "src/components/Avatar.vue",
+  "main": "./Avatar.vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint"
