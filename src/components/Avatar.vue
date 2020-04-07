@@ -50,14 +50,11 @@ export default {
   methods: {
     toColor (str) {
       let hash = 0
-      const len = str.length
-      if (len === 0) return 'black'
-      for (let i = 0; i < len; i++) {
-        hash = (hash << (8 - hash)) + str.charCodeAt(i)
-        hash |= 0
+      if (!str) return 'black'
+      for (const char of str.split('')) {
+        hash = (hash << (8 - hash)) + char.charCodeAt(0)
       }
-      hash = Math.abs(hash)
-      return '#' + hash.toString(16).substr(0, 6)
+      return '#' + Math.abs(hash).toString(16).substr(0, 6)
     }
   }
 }
