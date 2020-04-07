@@ -47,28 +47,14 @@ This will show this avatar as result :
 
 If images don't show, go to this component's [github repository](https://github.com/ssouron/vue-avatar-component) to see the full README.
 
-<table>
-  <tr>
-    <td><code>&lt;avatar fullname="My Fabulous Component"&gt;&lt;/avatar&gt;</code> will show :</td>
-    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example1.jpg" /> </td>
-  </tr>
-  <tr>
-    <td> <code>&lt;avatar fullname="Foo Bar" :size="60"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example2.jpg" /> </td>
-  </tr>
-  <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/9" :size="96"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example3.jpg" /> </td>
-  </tr>
-  <tr>
-    <td> <code>&lt;avatar image="http://lorempicsum.com/simpsons/255/200/5" :size="96" radius="0"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example4.jpg" /> </td>
-  </tr>
-  <tr>
-    <td> <code>&lt;avatar fullname="Foo Bar" radius="25" color="red"&gt;&lt;/avatar&gt;</code> will show : </td>
-    <td> <img src="https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/example5.jpg" /> </td>
-  </tr>
-</table>
+![examples](https://raw.githubusercontent.com/ssouron/vue-avatar-component/master/img/examples.png)
+
+### Contribution
+
+Contributions and enhancements are welcome. When forked and cloned the project, just install dependancies with yarn, then the `yarn serve`
+command will launch a development app where different avatar setups are defined in an array in the `App.vue` file.
+please note that this only serves development purposes, because when published, only the `Avatar.vue` component is exported.
+At the end, submit your PR against the master branch.
 
 ### License
 
