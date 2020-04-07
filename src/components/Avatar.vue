@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     // compute initials from fullname
-    initials() {
+    initials () {
       const words = this.fullname.split(/[\s-]+/)
       let intls = ''
       for (let i = 0; i < words.length; i++) {
@@ -40,7 +40,7 @@ export default {
       return intls
     },
     // compute style from props
-    style() {
+    style () {
       const fontSize = this.initials.length > 2 ? this.size / 3 : this.size / 2
       return {
         width: this.size + 'px',
@@ -52,12 +52,12 @@ export default {
         'background-image': this.hasImage ? 'url(' + this.image + ')' : 'none'
       }
     },
-    hasImage() {
+    hasImage () {
       return this.image !== ''
     }
   },
   methods: {
-    toColor(str) {
+    toColor (str) {
       let hash = 0
       const len = str.length
       if (len === 0) return 'black'

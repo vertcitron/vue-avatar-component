@@ -9,9 +9,10 @@
     "Nick Steele <njsteele@gmail.com>",
     "Diego Jara <saintplay96@gmail.com> (http://saintplay.dropmark.com/383652)"
   ],
-  "main": "Avatar.vue",
+  "main": "src/components/Avatar.vue",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,42 @@
   "bugs": {
     "url": "https://github.com/vertcitron/vue-avatar-component/issues"
   },
-  "homepage": "https://github.com/vertcitron/vue-avatar-component#readme"
+  "homepage": "https://github.com/vertcitron/vue-avatar-component#readme",
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
