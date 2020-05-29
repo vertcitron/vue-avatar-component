@@ -79,6 +79,7 @@ export default {
   height: 100%;
   margin: 0;
   padding: 0;
+  border-spacing: 0;
 }
 .avatar table td {
   text-align: center;
