@@ -1,6 +1,6 @@
 # vue-avatar-component
 
-## I'm really sorry, but I no longer bandwith to maintain this project, which begins to be well outdated. Don't hesitate to fork and make your own if you need it...
+## I'm really sorry, but I no longer have bandwith to maintain this project, which begins to be well outdated. Don't hesitate to fork and make your own if you need it...
 
 This vue.js component provide a simple way to generate rounded and colored avatar stickers to use in your applications.
 
