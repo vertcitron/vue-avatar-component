@@ -1,5 +1,7 @@
 # vue-avatar-component
 
+## I'm really sorry, but I no longer bandwith to maintain this project, which begins to be well outdated. Don't hesitate to fork and make your own if you need it...
+
 This vue.js component provide a simple way to generate rounded and colored avatar stickers to use in your applications.
 
 If you just provide a name to the component, i will show a colored patch showing the provided name's initials. Its color is depending and is unique for each given name.
